@@ -1,31 +1,17 @@
-# Adonis fullstack application
+## Installation Notes:
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
+We need install node, yarn. 
 
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
+Node: https://nodejs.org/en/download/package-manager/#macos , Version: > 8.x
 
-## Setup
-
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick
+Yarn: https://yarnpkg.com/en/docs/install#mac-stable , latest.
 ```
-
-or manually clone the repo and then run `npm install`.
-
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
+yarn         #install packege
+yarn dev     #start server
 ```
+and you can link it. http://127.0.0.1:3333
+
+adonisjs is optional for database migration.
+
+The mail function needs to be modified by .env
+MAIL_ADDRESS and MAIL_PASSWD, and the Gmail privacy settings.
